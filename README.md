@@ -7,8 +7,7 @@ Repositorio para la gestión de análisis, procesos reproducibles y comparacione
 Este repositorio está organizado por carpetas temáticas y por proceso analítico. La idea es separar:
 
 - utilidades y funciones reutilizables comunes a varios proyectos,
-- cada análisis o flujo específico de modelización,
-- y los artefactos asociados a cada proceso.
+- cada análisis o flujo específico de modelización.
 
 ## Estructura del repositorio
 
@@ -23,11 +22,6 @@ modelos_prevision_SS/
 │   ├── funcionalidades.R
 │   ├── funciones_aux.R
 │   └── ...
-├── modelos_previsión_SS/       # Carpeta reservada para otros modelos/procesos
-│   └── ...
-├── README.md
-├── .gitignore
-└── ...
 ```
 
 ## Carpetas principales
@@ -49,7 +43,7 @@ La finalidad es evitar duplicar lógica entre distintos análisis y mantener un 
 
 ### prev_anual_ARIMAs/
 
-Carpeta correspondiente al análisis o proceso reproducible de previsión anual. En ella se guardan los scripts y artefactos específicos del flujo de trabajo asociado a ese modelo o aplicación.
+Proceso reproducible mediante shiny_app de previsiones anuales generadas por modelos ARIMA para las distintas versiones de datos consideradas. 
 
 Incluye, entre otros elementos:
 
