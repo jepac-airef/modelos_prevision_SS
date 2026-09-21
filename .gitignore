@@ -47,3 +47,41 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Data files
+*.csv
+*.tsv
+*.dat
+*.bak
+*.xls
+*.xlsx
+*.xlsm
+*.xlsb
+*.ods
+*.odt
+*.json
+*.parquet
+*.pq
+*.db
+*.sqlite
+*.sqlite3
+
+# Document files
+*.doc
+*.docx
+*.docm
+*.dot
+*.dotx
+*.rtf
+*.pdf
+*.ppt
+*.pptx
+*.odp
+*.odg
+*.zip
+*.rar
+*.7z
+*.gz
+*.tgz
+*.bz2
+*.xz
