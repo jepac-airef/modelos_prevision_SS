@@ -65,6 +65,7 @@ rsconnect/
 *.db
 *.sqlite
 *.sqlite3
+*.prg
 
 # Document files
 *.doc
