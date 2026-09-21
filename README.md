@@ -1,4 +1,4 @@
-# Modelos de previsión de la Seguridad Social
+# Modelos de previsión de indicadores de la Seguridad Social
 
 Repositorio para la gestión de análisis, procesos reproducibles y comparaciones de modelos de previsión de indicadores de la Seguridad Social.
 
@@ -7,8 +7,7 @@ Repositorio para la gestión de análisis, procesos reproducibles y comparacione
 Este repositorio está organizado por carpetas temáticas y por proceso analítico. La idea es separar:
 
 - utilidades y funciones reutilizables comunes a varios proyectos,
-- cada análisis o flujo específico de modelización,
-- y los artefactos asociados a cada proceso.
+- cada análisis o flujo específico de modelización.
 
 ## Estructura del repositorio
 
@@ -23,11 +22,6 @@ modelos_prevision_SS/
 │   ├── funcionalidades.R
 │   ├── funciones_aux.R
 │   └── ...
-├── modelos_previsión_SS/       # Carpeta reservada para otros modelos/procesos
-│   └── ...
-├── README.md
-├── .gitignore
-└── ...
 ```
 
 ## Carpetas principales
@@ -49,7 +43,7 @@ La finalidad es evitar duplicar lógica entre distintos análisis y mantener un 
 
 ### prev_anual_ARIMAs/
 
-Carpeta correspondiente al análisis o proceso reproducible de previsión anual. En ella se guardan los scripts y artefactos específicos del flujo de trabajo asociado a ese modelo o aplicación.
+Proceso reproducible mediante shiny_app de previsiones anuales generadas por modelos ARIMA para las distintas versiones de datos consideradas. 
 
 Incluye, entre otros elementos:
 
@@ -57,19 +51,5 @@ Incluye, entre otros elementos:
 - lógica del servidor,
 - funciones específicas del análisis,
 - resultados y outputs del proceso.
-
-## Convención recomendada
-
-A medida que se incorporen nuevos procesos, se recomienda mantener esta lógica:
-
-- `auxiliares/` para código común compartido,
-- un directorio por análisis o proceso reproducible,
-- nombres claros y descriptivos del flujo o modelo.
-
-## Recomendación de uso
-
-- Si la funcionalidad es reutilizable en más de un proyecto, ir a `auxiliares/`.
-- Si es específica de un análisis, dejarla dentro de la carpeta del proyecto correspondiente.
-- Mantener funciones comunes y visualización centralizadas para facilitar mantenimiento y reproducibilidad.
 
 
