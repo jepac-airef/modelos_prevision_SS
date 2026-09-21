@@ -58,18 +58,4 @@ Incluye, entre otros elementos:
 - funciones específicas del análisis,
 - resultados y outputs del proceso.
 
-## Convención recomendada
-
-A medida que se incorporen nuevos procesos, se recomienda mantener esta lógica:
-
-- `auxiliares/` para código común compartido,
-- un directorio por análisis o proceso reproducible,
-- nombres claros y descriptivos del flujo o modelo.
-
-## Recomendación de uso
-
-- Si la funcionalidad es reutilizable en más de un proyecto, ir a `auxiliares/`.
-- Si es específica de un análisis, dejarla dentro de la carpeta del proyecto correspondiente.
-- Mantener funciones comunes y visualización centralizadas para facilitar mantenimiento y reproducibilidad.
-
 
