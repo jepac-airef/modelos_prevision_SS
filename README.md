@@ -1,4 +1,4 @@
-# Modelos de previsión de la Seguridad Social
+# Modelos de previsión de indicadores de la Seguridad Social
 
 Repositorio para la gestión de análisis, procesos reproducibles y comparaciones de modelos de previsión de indicadores de la Seguridad Social.
 
